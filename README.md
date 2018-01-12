@@ -9,6 +9,7 @@
 - Git 설치: [Window](https://youtu.be/JKT9laOAPIs) | [Mac](https://youtu.be/nw0x0cvg-iM) | [Linux](https://youtu.be/S1BYwbkrojw)
 - Editor 설치: [VS Code](https://code.visualstudio.com/) | [Atom](https://atom.io/) | [Sublime Text](https://www.sublimetext.com/) (택1)
 - Node.js 설치: [Node.js](https://nodejs.org/ko/)
+- Github 가입: [Github.com](https://github.com)
 
 --- 
 
@@ -32,5 +33,15 @@
 
 ### Github Pages로 블로그 만들기
 - [github.io](https://opentutorials.org/course/3084/18891)
-- [Hexo](https://www.holaxprogramming.com/2017/04/16/github-page-and-hexo/)
-- [도메인 등록하기](https://www.holaxprogramming.com/2017/05/15/github-page-and-custom-domain/)
+- 쉽게 하는 두가지 방법: [Hexo](https://hexo.io/ko/) | [Jekyll](https://jekyllrb-ko.github.io/)
+- 프레임워크로 간지나게 방법: [React](https://reactjs.org/) | [Vue](https://kr.vuejs.org/v2/guide/index.html) | [Angular](https://angularjs.org/)
+- 제일 많이 배우는 방법: DIY (HTML, CSS, JS)
+
+### Hexo
+- [공식 홈페이지](https://hexo.io/ko/)
+- [참고](https://www.holaxprogramming.com/2017/04/16/github-page-and-hexo/)
+
+### 시간이 남으면...
+- 도메인 등록하기: [참고](https://www.holaxprogramming.com/2017/05/15/github-page-and-custom-domain/)
+- Github으로 오픈소스 활동하기: [DjangoGirls 사례](https://github.com/DjangoGirls/tutorial/pull/1036)
+- Github Organizations: [MARPPLE](https://github.com/marpple), [Facebook](https://github.com/facebook), [Jieum](https://github.com/jieumjigi)
