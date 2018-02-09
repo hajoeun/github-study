@@ -1,9 +1,9 @@
-# Github 스터디 시즌1
+# Github 스터디 시즌 1,2
 
 ### 개요  
 - 목표: 블로그를 직접 만들면서 Github 사용법을 익혀보자!
-- 대상: 한동대학교 학생 (전산 혹은 GEI)
-- 일시: 1월 13일 토요일 15시 ~ 18시
+- 대상: 한동대학교 재학생 및 졸업생
+- 일시: 1월 13일(시즌1), 2월 10일(시즌2) 토요일 15시 ~ 18시
 
 ### 사전 준비 작업
 - Git 설치: [Window](https://youtu.be/JKT9laOAPIs) | [Mac](https://youtu.be/nw0x0cvg-iM) | [Linux](https://youtu.be/S1BYwbkrojw)
@@ -18,18 +18,21 @@
 - Github: Git을 사용하여 관리되는 오픈소스를 호스팅하는 웹 서비스. 대부분의 오픈소스가 이 서비스에 등록되어 있다. 오픈소스 활동을 하는 개발자에게는 물론 오픈소스를 이용하는 개발자라면 반드시 알아야할 서비스. 마스코트는 옥토캣(Octocat).
 - [Github Pages](https://pages.github.com/): Github에서 제공하는 웹 호스팅 서비스. 무료로 자신의 웹 사이트를 등록할 수 있다. [관련 강의](https://opentutorials.org/course/3084/18891)
 
-### Git의 사용법
+### Git 사용법
 - [GUI](https://git-scm.com/downloads/guis): [SourceTree](https://www.sourcetreeapp.com/), [Github Desktop](https://desktop.github.com/)
 - CLI: Bash, Zsh, Powershell
-  - `git init`
-  - `git add /path/file`
-  - `git commit -m "msg"`
-  - `git status`
-  - `git commit --amend`
-  - `git log`
-  - `git remote -v`
-  - `git remote set-url origin https://username@hostname/project/repository.git`
-  - `git clone https://username@hostname/project/repository.git`
+  - 초기화: `git init`
+  - 추가하고: `git add /path/file`
+  - 저지르고: `git commit -m "msg"`
+  - 상태확인: `git status`
+  - 기록확인: `git log`
+  - 원격저장소 주소 확인: `git remote -v`
+  - 원격저상소 주소 재설정: `git remote set-url origin https://username@hostname/project/repository.git`
+  - 원격저장소를 복제해서 로컬에 가져오기: `git clone https://username@hostname/project/repository.git`
+
+### Github 사용법
+- Repository(저장소) 만들기
+- 추가(add)하고 저지르고(commit) 밀어붙이고(push)
 
 ### Github Pages로 블로그 만들기
 - [github.io](https://opentutorials.org/course/3084/18891)
@@ -40,6 +43,11 @@
 ### Hexo
 - [공식 홈페이지](https://hexo.io/ko/)
 - [참고](https://www.holaxprogramming.com/2017/04/16/github-page-and-hexo/)
+- 명령어
+  - 서버 띄우기: `hexo s`
+  - .md -> .html 변환하기: `hexo g`
+  - 배포하기: `hexo d`
+
 
 ### 시간이 남으면...
 - 도메인 등록하기: [참고](https://www.holaxprogramming.com/2017/05/15/github-page-and-custom-domain/)
