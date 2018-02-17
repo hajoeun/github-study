@@ -21,18 +21,21 @@
 ### Git 사용법
 - [GUI](https://git-scm.com/downloads/guis): [SourceTree](https://www.sourcetreeapp.com/), [Github Desktop](https://desktop.github.com/)
 - CLI: Bash, Zsh, Powershell
-  - 초기화: `git init`
-  - 추가하고: `git add /path/file`
-  - 저지르고: `git commit -m "msg"`
-  - 상태확인: `git status`
-  - 기록확인: `git log`
-  - 원격저장소 주소 확인: `git remote -v`
-  - 원격저상소 주소 재설정: `git remote set-url origin https://username@hostname/project/repository.git`
-  - 원격저장소를 복제해서 로컬에 가져오기: `git clone https://username@hostname/project/repository.git`
+  - Bash 기본 명령어
+    - 디렉토리 이동: `cd`
+    - 디렉토리 조회: `ls` 
+  - Git 명령어
+    - 초기화: `git init`
+    - 추가하고: `git add /path/file`
+    - 저지르고: `git commit -m "msg"`
+    - 상태확인: `git status`
+    - 기록확인: `git log`
+    - 원격저장소 주소 확인: `git remote -v`
+    - 원격저장소를 복제해서 로컬에 가져오기: `git clone https://username@hostname/project/repository.git`
 
 ### Github 사용법
 - Repository(저장소) 만들기
-- 추가(add)하고 저지르고(commit) 밀어붙이고(push)
+- 명령어로 추가(add)하고 저지르고(commit) 밀어넣고(push)
 
 ### Github Pages로 블로그 만들기
 - [github.io](https://opentutorials.org/course/3084/18891)
